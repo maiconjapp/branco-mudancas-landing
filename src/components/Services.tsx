@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ServiceCard from './ServiceCard';
 import { Home, Briefcase, Users, Package, Truck, MessageCircle, CreditCard } from 'lucide-react';
@@ -8,12 +7,14 @@ const Services = () => {
     {
       icon: Home,
       title: "Mudanças Residenciais",
-      description: "Cuidamos de sua mudança com total atenção aos detalhes, garantindo que seus pertences cheguem em segurança ao novo lar."
+      description: "Cuidamos de sua mudança com total atenção aos detalhes, garantindo que seus pertences cheguem em segurança ao novo lar.",
+      imageSrc: "https://im.runware.ai/image/ws/0.5/ii/0f2a3a91-8e91-4b7a-ac7f-857f530f2aea.webp"
     },
     {
       icon: Briefcase,
       title: "Mudanças Comerciais",
-      description: "Movimentação de escritórios e empresas com planejamento para minimizar o tempo de inatividade do seu negócio."
+      description: "Movimentação de escritórios e empresas com planejamento para minimizar o tempo de inatividade do seu negócio.",
+      imageSrc: "https://im.runware.ai/image/ws/0.5/ii/1f2a3a91-8e91-4b7a-ac7f-857f530f2aea.webp"
     },
     {
       icon: Users,
@@ -57,6 +58,7 @@ const Services = () => {
               icon={service.icon}
               title={service.title}
               description={service.description}
+              imageSrc={service.imageSrc}
             />
           ))}
         </div>

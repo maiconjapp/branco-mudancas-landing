@@ -1,4 +1,3 @@
-
 import React from 'react';
 import WhatsAppButton from './WhatsAppButton';
 
@@ -30,11 +29,13 @@ const HeroSection = () => {
           <div className="w-full md:w-1/2">
             <div className="relative">
               <div className="bg-brand-blue rounded-lg p-2 rotate-3 shadow-xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1600518863098-74d0c5f168d7?auto=format&fit=crop&w=600&h=500" 
-                  alt="Equipe da Branco Fretes e Mudanças" 
-                  className="rounded-lg w-full h-auto object-cover"
-                />
+                <div className="relative h-[400px] overflow-hidden rounded-lg">
+                  <img 
+                    src="https://im.runware.ai/image/ws/0.5/ii/e2a3afb1-8ee1-4b7a-ac7f-857f530f2aea.webp"
+                    alt="Caminhão de Mudança Branco Fretes" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
               <div className="absolute -bottom-8 -left-8 bg-white rounded-lg p-4 shadow-custom animate-float">
                 <div className="flex items-center">
@@ -53,7 +54,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Wave SVG */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 130">
           <path 
