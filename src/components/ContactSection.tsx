@@ -32,7 +32,7 @@ const ContactSection = () => {
                   <Phone className="w-5 h-5 mr-3 mt-1" />
                   <div>
                     <p className="font-medium">Telefone</p>
-                    <p>(24) 99999-9999</p>
+                    <p>(24) 98807-7070</p>
                   </div>
                 </div>
                 
@@ -65,6 +65,16 @@ const ContactSection = () => {
           
           <div className="w-full lg:w-1/2">
             <ContactForm />
+            <div className="mt-8 w-full">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.788302164651!2d-43.182719924875315!3d-22.51212457953483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x29ff1d90d372a80f%3A0x39cee2525577a295!2sBranco%20Fretes%20e%20Mudan%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1744926845325!5m2!1spt-BR!2sbr"
+                className="w-full h-[450px] rounded-lg"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
         </div>
       </div>

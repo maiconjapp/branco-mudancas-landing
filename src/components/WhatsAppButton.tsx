@@ -9,7 +9,7 @@ interface WhatsAppButtonProps {
 }
 
 const WhatsAppButton = ({ text, className = "", fixed = false }: WhatsAppButtonProps) => {
-  const phoneNumber = "5524999999999"; // Replace with actual WhatsApp number
+  const phoneNumber = "5524988077070"; // Updated WhatsApp number
   const message = "Olá! Gostaria de solicitar um orçamento para mudança.";
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
