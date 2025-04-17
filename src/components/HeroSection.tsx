@@ -31,7 +31,7 @@ const HeroSection = () => {
               <div className="bg-brand-blue rounded-lg p-2 rotate-3 shadow-xl">
                 <div className="relative h-[400px] overflow-hidden rounded-lg">
                   <img 
-                    src="https://im.runware.ai/image/ws/0.5/ii/e2a3afb1-8ee1-4b7a-ac7f-857f530f2aea.webp"
+                    src="https://im.runware.ai/image/ws/0.5/ii/0f2a3a91-8e91-4b7a-ac7f-857f530f2aea.webp"
                     alt="Caminhão de Mudança Branco Fretes" 
                     className="w-full h-full object-cover"
                   />
