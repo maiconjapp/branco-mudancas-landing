@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ServiceCard from './ServiceCard';
 import { Home, Briefcase, Users, Package, Truck, MessageCircle, CreditCard } from 'lucide-react';
@@ -8,30 +9,31 @@ const Services = () => {
       icon: Home,
       title: "Mudanças Residenciais",
       description: "Cuidamos de sua mudança com total atenção aos detalhes, garantindo que seus pertences cheguem em segurança ao novo lar.",
-      imageSrc: "https://i.ibb.co/qwTfHtT/a-realistic-photo-of-a-residential-moving-team-wearing-orange-polo-shirts-and-blue-jeans-unloading-m.png"
+      imageSrc: "https://i.ibb.co/9mV7MMQc/a-realistic-photo-of-a-professional-moving-team-unloading-boxes-from-a-moving-truck-the-movers-are-6.png"
     },
     {
       icon: Briefcase,
       title: "Mudanças Comerciais",
       description: "Movimentação de escritórios e empresas com planejamento para minimizar o tempo de inatividade do seu negócio.",
-      imageSrc: "https://i.ibb.co/5XnRcBZw/enhanced-a87c40eb-17fe-4fe9-af39-3ccb882d6c00.png"
+      imageSrc: "https://i.ibb.co/F4PxmXjS/enhanced-a87c40eb-17fe-4fe9-af39-3ccb882d6c00.png"
     },
     {
       icon: Users,
       title: "Equipe Treinada",
       description: "Nossa equipe é especializada, com toque feminino para cuidado extra na embalagem e proteção dos seus itens.",
-      imageSrc: "https://i.ibb.co/9mfKp81n/enhanced-fe9a8d32-720e-4198-9129-46a0b7b473ed.png"
+      imageSrc: "https://i.ibb.co/V0hnLjzV/enhanced-fe9a8d32-720e-4198-9129-46a0b7b473ed.png"
     },
     {
       icon: Package,
       title: "Embalagem Completa",
       description: "Serviço completo de desmontagem, embalagem e montagem, garantindo que tudo chegue intacto ao destino.",
-      imageSrc: "https://i.ibb.co/GfzN07mZ/enhanced-b051e500-4ee2-4651-882b-ca6abbc7ffda.png"
+      imageSrc: "https://i.ibb.co/F4PxmXjS/enhanced-a87c40eb-17fe-4fe9-af39-3ccb882d6c00.png"
     },
     {
       icon: Truck,
       title: "Transporte Seguro",
-      description: "Veículos adequados e seguros para transportar seus pertences, incluindo cobertura de seguro para toda a mudança."
+      description: "Veículos adequados e seguros para transportar seus pertences, incluindo cobertura de seguro para toda a mudança.",
+      imageSrc: "https://i.ibb.co/57kJMQx/enhanced-9165c89e-0c1b-4a7d-85c6-f5315203d75e.png"
     },
     {
       icon: MessageCircle,
