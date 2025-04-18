@@ -8,13 +8,13 @@ const Services = () => {
       icon: Home,
       title: "Mudanças Residenciais",
       description: "Cuidamos de sua mudança com total atenção aos detalhes, garantindo que seus pertences cheguem em segurança ao novo lar.",
-      imageSrc: "https://im.runware.ai/image/ws/0.5/ii/0f2a3a91-8e91-4b7a-ac7f-857f530f2aea.webp"
+      imageSrc: "https://i.ibb.co/HQ5scW5/a-realistic-photo-of-a-residential-moving-team-wearing-orange-polo-shirts-and-blue-jeans-unloading-m.png"
     },
     {
       icon: Briefcase,
       title: "Mudanças Comerciais",
       description: "Movimentação de escritórios e empresas com planejamento para minimizar o tempo de inatividade do seu negócio.",
-      imageSrc: "https://im.runware.ai/image/ws/0.5/ii/1f2a3a91-8e91-4b7a-ac7f-857f530f2aea.webp"
+      imageSrc: "https://i.ibb.co/Ps96Cwk0/enhanced-a87c40eb-17fe-4fe9-af39-3ccb882d6c00.png"
     },
     {
       icon: Users,

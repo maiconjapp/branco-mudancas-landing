@@ -57,7 +57,7 @@ const About = () => {
             <div className="relative">
               <div className="bg-white rounded-lg p-3 shadow-xl -rotate-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1610526588123-d7e8f506d3f7?auto=format&fit=crop&w=600&h=500" 
+                  src="https://i.ibb.co/RkRCg4NG/enhanced-a4147933-aa83-4041-9afe-fdf3fc26985f.png" 
                   alt="Equipe Branco Fretes e Mudanças" 
                   className="rounded-lg w-full h-auto object-cover"
                 />
