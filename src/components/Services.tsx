@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ServiceCard from './ServiceCard';
 import { Home, Briefcase, Users, Package, Truck, MessageCircle, CreditCard } from 'lucide-react';
@@ -8,23 +9,25 @@ const Services = () => {
       icon: Home,
       title: "Mudanças Residenciais",
       description: "Cuidamos de sua mudança com total atenção aos detalhes, garantindo que seus pertences cheguem em segurança ao novo lar.",
-      imageSrc: "https://i.ibb.co/HQ5scW5/a-realistic-photo-of-a-residential-moving-team-wearing-orange-polo-shirts-and-blue-jeans-unloading-m.png"
+      imageSrc: "https://i.ibb.co/qwTfHtT/a-realistic-photo-of-a-residential-moving-team-wearing-orange-polo-shirts-and-blue-jeans-unloading-m.png"
     },
     {
       icon: Briefcase,
       title: "Mudanças Comerciais",
       description: "Movimentação de escritórios e empresas com planejamento para minimizar o tempo de inatividade do seu negócio.",
-      imageSrc: "https://i.ibb.co/Ps96Cwk0/enhanced-a87c40eb-17fe-4fe9-af39-3ccb882d6c00.png"
+      imageSrc: "https://i.ibb.co/5XnRcBZw/enhanced-a87c40eb-17fe-4fe9-af39-3ccb882d6c00.png"
     },
     {
       icon: Users,
       title: "Equipe Treinada",
-      description: "Nossa equipe é especializada, com toque feminino para cuidado extra na embalagem e proteção dos seus itens."
+      description: "Nossa equipe é especializada, com toque feminino para cuidado extra na embalagem e proteção dos seus itens.",
+      imageSrc: "https://i.ibb.co/GfzN07mZ/enhanced-b051e500-4ee2-4651-882b-ca6abbc7ffda.png"
     },
     {
       icon: Package,
       title: "Embalagem Completa",
-      description: "Serviço completo de desmontagem, embalagem e montagem, garantindo que tudo chegue intacto ao destino."
+      description: "Serviço completo de desmontagem, embalagem e montagem, garantindo que tudo chegue intacto ao destino.",
+      imageSrc: "https://i.ibb.co/GfzN07mZ/enhanced-b051e500-4ee2-4651-882b-ca6abbc7ffda.png"
     },
     {
       icon: Truck,
