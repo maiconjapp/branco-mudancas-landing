@@ -7,17 +7,19 @@ interface ServiceCardProps {
   title: string;
   description: string;
   imageSrc?: string;
+  imageAlt?: string;
 }
 
-const ServiceCard = ({ icon: Icon, title, description, imageSrc }: ServiceCardProps) => {
+const ServiceCard = ({ icon: Icon, title, description, imageSrc, imageAlt }: ServiceCardProps) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-custom border border-gray-100 hover:border-brand-blue transition-all duration-300 group">
       {imageSrc && (
         <div className="mb-4 h-48 w-full overflow-hidden rounded-lg">
           <img 
             src={imageSrc} 
-            alt={title} 
+            alt={imageAlt || title} 
             className="w-full h-full object-cover"
+            loading="lazy"
           />
         </div>
       )}
