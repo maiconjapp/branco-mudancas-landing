@@ -32,7 +32,7 @@ const HeroSection = () => {
               <div className="bg-brand-blue rounded-lg p-2 rotate-3 shadow-xl">
                 <div className="relative h-[400px] overflow-hidden rounded-lg">
                   <img 
-                    src="https://lh3.googleusercontent.com/p/AF1QipOOHGswiLcRbq9OvVjuKIcpF6Cv_FqDyCwkKF0FRyxOuZmeDFEogblu0=s3056-w3056-h1476-rw"
+                    src="https://i.ibb.co/g0x5274/enhanced-471ebf17-5a28-406d-ada0-f10b564d62cf.png"
                     alt="Caminhão de Mudança Branco Fretes" 
                     className="w-full h-full object-cover"
                   />
