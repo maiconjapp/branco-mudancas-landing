@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ServiceCard from './ServiceCard';
 import { Home, Briefcase, Users, Package, Truck, MessageCircle, CreditCard } from 'lucide-react';
@@ -21,7 +20,7 @@ const Services = () => {
       icon: Users,
       title: "Equipe Treinada",
       description: "Nossa equipe é especializada, com toque feminino para cuidado extra na embalagem e proteção dos seus itens.",
-      imageSrc: "https://i.ibb.co/GfzN07mZ/enhanced-b051e500-4ee2-4651-882b-ca6abbc7ffda.png"
+      imageSrc: "https://i.ibb.co/9mfKp81n/enhanced-fe9a8d32-720e-4198-9129-46a0b7b473ed.png"
     },
     {
       icon: Package,
